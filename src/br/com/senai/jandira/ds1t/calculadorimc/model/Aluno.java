@@ -48,7 +48,7 @@ public class Aluno {
             classificacao = "com obesidade grau I";
         } else if (resultadoImc >= 34.9 && resultadoImc <39.9){
             classificacao = "com Obesidade grau II (severa)";
-        } else if (resultadoImc >=39.9){
+        } else {
             classificacao = "com obesidade grau III (mórbida)";
         }
 
