@@ -38,17 +38,17 @@ public class Aluno {
     }
 
     public void classificarImc(){
-        if (resultadoImc <= 18.5){
+        if (resultadoImc <18.6){
             classificacao = "abaixo do peso!";
-        } else if (resultadoImc <= 24.9) {
+        } else if (resultadoImc >= 18.6 && resultadoImc <24.9) {
             classificacao = "com o peso ideial! :)";
-        } else if (resultadoImc <= 29.9){
+        } else if (resultadoImc >=24.9 && resultadoImc <29.9){
             classificacao = "levemente acima do peso";
-        } else if (resultadoImc <= 34.9) {
+        } else if (resultadoImc >=29.9 && resultadoImc <34.9) {
             classificacao = "com obesidade grau I";
-        } else if (resultadoImc <= 39.9){
+        } else if (resultadoImc >= 34.9 && resultadoImc <39.9){
             classificacao = "com Obesidade grau II (severa)";
-        } else{
+        } else if (resultadoImc >=39.9){
             classificacao = "com obesidade grau III (mórbida)";
         }
 
